@@ -98,7 +98,7 @@ export default function Home() {
           Chat on WhatsApp
         </a>
         <div style={{ display: 'flex', gap: '20px', marginTop: '10px' }}>
-          <a href="https://www.instagram.com/dr.ahmad.azzam.ortho" target="_blank" rel="noopener noreferrer" style={{ color: '#2563eb', textDecoration: 'none', fontWeight: 'bold' }}>Instagram</a>
+          <a href="https://www.instagram.com/dr.ahmad.azzam.orthopro.clinic/" target="_blank" rel="noopener noreferrer" style={{ color: '#2563eb', textDecoration: 'none', fontWeight: 'bold' }}>Instagram</a>
           <a href="#" target="_blank" rel="noopener noreferrer" style={{ color: '#2563eb', textDecoration: 'none', fontWeight: 'bold' }}>Google Business</a>
         </div>
       </footer>
