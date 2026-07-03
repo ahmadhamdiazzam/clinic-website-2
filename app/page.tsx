@@ -106,7 +106,7 @@ export default function Home() {
       {menuOpen && (
         <div style={{ position: 'absolute', top: '80px', left: lang === 'en' ? '40px' : 'auto', right: lang === 'ar' ? '40px' : 'auto', width: '280px', backgroundColor: '#fff', boxShadow: '0 5px 15px rgba(0,0,0,0.1)', zIndex: 1000, padding: '20px', border: '1px solid #eaeaea' }}>
           <nav style={{ display: 'flex', flexDirection: 'column', gap: '15px', fontFamily: 'Georgia, serif' }}>
-            <a href="#about" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuAbout}</a>
+            <a href="/about" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuAbout}</a>
             <a href="#services" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuServices}</a>
             <a href="#injections" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuInjections}</a>
             <a href="#surgeries" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuSurgeries}</a>
