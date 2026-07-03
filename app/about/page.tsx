@@ -27,13 +27,13 @@ export default function AboutPage() {
             <h1 style={styles.header}>Dr. Ahmad Hamdi Azzam</h1>
             <h3 style={styles.subHeader}>Consultant of Orthopedic Surgery & Traumatology, PhD, MD</h3>
             <p>
-              Dr. Ahmad Hamdi Azzam (Born in 1983; Married) is a highly accomplished Consultant of Orthopedic Surgery and Traumatology. With 18 years of dedicated experience across Cairo University Hospitals, private hospitals, and international institutes, Dr. Azzam has refined a high-end standard of care, blending clinical excellence with rigorous scientific research and commitment to educating both undergraduate and postgraduate students[cite: 1].
+              Dr. Ahmad Hamdi Azzam (Born in 1983; Married) is a highly accomplished Consultant of Orthopedic Surgery and Traumatology. With 18 years of dedicated experience across Cairo University Hospitals, private hospitals, and international institutes, Dr. Azzam has refined a high-end standard of care, blending clinical excellence with rigorous scientific research and commitment to educating both undergraduate and postgraduate students.
             </p>
           </div>
 
           <div style={styles.card}>
             <h2 style={styles.header}>Professional Trajectory & Clinical Expertise</h2>
-            <p>Dr. Azzam’s clinical expertise is centered on Pelvis and Geriatric Trauma surgeries and Arthroplasty, with extended interest in Trauma & Deformity correction. His current & past professional appointments & posts include[cite: 1]:</p>
+            <p>Dr. Azzam’s clinical expertise is centered on Pelvis and Geriatric Trauma surgeries and Arthroplasty, with extended interest in Trauma & Deformity correction. His current & past professional appointments & posts include:</p>
             <ul>
               <li>Consultant at Cairo University Faculty of Medicine</li>
               <li>Armed Forces College of Medicine</li>
@@ -49,7 +49,7 @@ export default function AboutPage() {
 
           <div style={styles.card}>
             <h2 style={styles.header}>International Fellowships & Global Perspective</h2>
-            <p>Dr. Azzam has actively pursued international surgical mastery[cite: 1]:</p>
+            <p>Dr. Azzam has actively pursued international surgical mastery:</p>
             <ul>
               <li><strong>Austria:</strong> Fellowship in Total Knee Replacement under Prof. Siegfried Hofmann, Stolzalpe (May 2019).</li>
               <li><strong>Germany:</strong> Fellowship in Hip and Knee Arthroplasty under Prof. Lindner, Paderborn (May 2016).</li>
@@ -60,36 +60,36 @@ export default function AboutPage() {
           <div style={styles.card}>
             <h2 style={styles.header}>Academic, Research, & Mentorship Contributions</h2>
             <p>
-              Dr. Azzam maintains a prolific academic and research record. His teaching duties include undergraduate and postgraduate courses at Cairo University (2014–Present), AFCM (2019–2021), the Faculty of Physical Therapy (Standard, Credit Hour, and PhD tracks), and the Technical Nursing Institute (2014–2017). He also served as an organizer and lecturer for the Orthopedic Department’s Monthly Journal Club (2015–2016)[cite: 1].
+              Dr. Azzam maintains a prolific academic and research record. His teaching duties include undergraduate and postgraduate courses at Cairo University (2014–Present), AFCM (2019–2021), the Faculty of Physical Therapy (Standard, Credit Hour, and PhD tracks), and the Technical Nursing Institute (2014–2017). He also served as an organizer and lecturer for the Orthopedic Department’s Monthly Journal Club (2015–2016).
             </p>
             <p>
-              His research portfolio is extensive, covering over 40 articles on topics such as shockwave phonophoresis, patellofemoral pain syndrome, chronic lateral ankle instability, hip arthroscopy, surgical dislocation of the hip, smartphone applications in clinical settings, and various biomechanical/musculoskeletal studies published in journals including <em>Clinical Rehabilitation</em>, <em>Journal of Taibah University Medical Sciences</em>, <em>Teikyo Medical Journal</em>, <em>Fizjoterapia Polska</em>, <em>The Egyptian Journal of Hospital Medicine</em>, and the <em>Medical Journal of Cairo University</em>, among others[cite: 1].
+              His research portfolio is extensive, covering over 40 articles on topics such as shockwave phonophoresis, patellofemoral pain syndrome, chronic lateral ankle instability, hip arthroscopy, surgical dislocation of the hip, smartphone applications in clinical settings, and various biomechanical/musculoskeletal studies published in journals including <em>Clinical Rehabilitation</em>, <em>Journal of Taibah University Medical Sciences</em>, <em>Teikyo Medical Journal</em>, <em>Fizjoterapia Polska</em>, <em>The Egyptian Journal of Hospital Medicine</em>, and the <em>Medical Journal of Cairo University</em>, among others.
             </p>
           </div>
 
           <div style={styles.card}>
             <h2 style={styles.header}>Awards, Memberships, & Certifications</h2>
             <ul>
-              <li><strong>Awards:</strong> Kasr Al Aini Shield for management of 2011 casualties, Honor Graduation (MBBCh 2006), and Highest Score Prizes in Ophthalmology (2004) and Parasitology (2003)[cite: 1].</li>
-              <li><strong>Memberships & Registrations:</strong> Egyptian Medical Syndicate (Reg. 189769), AO Association (since 2015), Egyptian Orthopedic Association (since 2011), and Egyptian Pelvis & Hip Society (since 2013)[cite: 1].</li>
-              <li><strong>Certificates:</strong> AO Basics of Orthopedic Fixation (2015), BLS (April 2025), and ACLS (May 2025)[cite: 1].</li>
+              <li><strong>Awards:</strong> Kasr Al Aini Shield for management of 2011 casualties, Honor Graduation (MBBCh 2006), and Highest Score Prizes in Ophthalmology (2004) and Parasitology (2003).</li>
+              <li><strong>Memberships & Registrations:</strong> Egyptian Medical Syndicate (Reg. 189769), AO Association (since 2015), Egyptian Orthopedic Association (since 2011), and Egyptian Pelvis & Hip Society (since 2013).</li>
+              <li><strong>Certificates:</strong> AO Basics of Orthopedic Fixation (2015), BLS (April 2025), and ACLS (May 2025).</li>
             </ul>
           </div>
 
           <div style={styles.card}>
             <h2 style={styles.header}>Conferences, Professional Development, & Skills</h2>
             <p>
-              Dr. Azzam is a frequent contributor to scientific congresses, including ICJR Egypt (2017, 2024), International Geriatrics Conferences (2019), and Kasr Al Aini Symposia. He has completed extensive FLDC training in Blended Learning, Research Ethics, Conflict/Time Management, and University Code of Ethics, among other modules[cite: 1].
+              Dr. Azzam is a frequent contributor to scientific congresses, including ICJR Egypt (2017, 2024), International Geriatrics Conferences (2019), and Kasr Al Aini Symposia. He has completed extensive FLDC training in Blended Learning, Research Ethics, Conflict/Time Management, and University Code of Ethics, among other modules.
             </p>
             <p>
-              He possesses excellent communication and leadership skills, with demonstrated crisis management abilities during the 2011 political events. Linguistically and technically proficient, he holds an OET (2019), TOEFL (2011, score 565), and ICDL (2007), with strong command of Windows, MacOS, and Microsoft Office[cite: 1].
+              He possesses excellent communication and leadership skills, with demonstrated crisis management abilities during the 2011 political events. Linguistically and technically proficient, he holds an OET (2019), TOEFL (2011, score 565), and ICDL (2007), with strong command of Windows, MacOS, and Microsoft Office.
             </p>
           </div>
 
           <div style={styles.card}>
             <h2 style={styles.header}>Personal Profile</h2>
             <p>
-              Outside of his clinical and academic endeavors, Dr. Azzam enjoys sketch drawing, clay sculpture, and reading. He is an avid traveler who has visited Austria, the Netherlands, Germany, the Czech Republic, Turkey, KSA, Kuwait, and Egypt, valuing the opportunity to engage with diverse cultures[cite: 1].
+              Outside of his clinical and academic endeavors, Dr. Azzam enjoys sketch drawing, clay sculpture, and reading. He is an avid traveler who has visited Austria, the Netherlands, Germany, the Czech Republic, Turkey, KSA, Kuwait, and Egypt, valuing the opportunity to engage with diverse cultures.
             </p>
           </div>
         </div>
