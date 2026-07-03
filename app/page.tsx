@@ -109,7 +109,7 @@ export default function Home() {
             <a href="/about" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuAbout}</a>
             <a href="/services" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuServices}</a>
             <a href="#injections" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuInjections}</a>
-            <a href="#surgeries" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuSurgeries}</a>
+            <a href="/surgeries" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuSurgeries}</a>
             <a href="#outcomes" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuOutcomes}</a>
             
             <hr style={{ width: '100%', border: '0', borderTop: '1px solid #eee' }} />
