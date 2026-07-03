@@ -106,7 +106,7 @@ export default function Home() {
       {menuOpen && (
         <div style={{ position: 'absolute', top: '80px', left: lang === 'en' ? '40px' : 'auto', right: lang === 'ar' ? '40px' : 'auto', width: '280px', backgroundColor: '#fff', boxShadow: '0 5px 15px rgba(0,0,0,0.1)', zIndex: 1000, padding: '20px', border: '1px solid #eaeaea' }}>
           <nav style={{ display: 'flex', flexDirection: 'column', gap: '15px', fontFamily: 'Georgia, serif' }}>
-            <a href="#about" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuAbout}</a>
+            <a href="#about" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuAbout}</a>
             <a href="#services" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuServices}</a>
             <a href="#injections" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuInjections}</a>
             <a href="#surgeries" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuSurgeries}</a>
@@ -138,19 +138,38 @@ export default function Home() {
       </section>
 
       {/* ABOUT SECTION */}
-      <section id="about" style={{ maxWidth: '800px', margin: '0 auto', padding: '80px 20px', textAlign: 'center' }}>
-        <h2 style={{ fontFamily: 'Georgia, serif', fontSize: '28px', letterSpacing: '1px', marginBottom: '30px' }}>{t.aboutTitle}</h2>
+      <section id="about" style={{ maxWidth: '800px', margin: '0 auto', padding: '80px 20px', textAlign: 'left' }}>
+        <h2 style={{ fontFamily: 'Georgia, serif', fontSize: '32px', textAlign: 'center', marginBottom: '40px' }}>{t.aboutTitle}</h2>
+        
         <Image 
           src="/profile.webp" 
           alt={t.name} 
           width={180} 
           height={180} 
-          sizes="180px" 
-          priority
-          style={{ borderRadius: '50%', margin: '0 auto 30px auto', objectFit: 'cover', border: '4px solid #f9f9f9' }} 
+          style={{ borderRadius: '50%', margin: '0 auto 30px auto', display: 'block', border: '4px solid #f9f9f9' }} 
         />
-        <p style={{ fontSize: '18px', lineHeight: '1.8', color: '#555' }}>
-          {t.aboutText}
+
+        <h3 style={{ fontSize: '20px', color: '#d4af37', fontFamily: 'Georgia, serif' }}>Executive Summary</h3>
+        <p style={{ lineHeight: '1.8', color: '#555', marginBottom: '20px' }}>
+          With a distinguished 17-year career at Cairo University Hospitals and beyond, Dr. Ahmad Hamdi Azzam serves as a Consultant of Orthopedic Surgery & Traumatology, bridging the gap between clinical surgical excellence and academic leadership. Dr. Azzam is a specialist in Arthroplasty, Pelvis surgery, and Geriatric Trauma, consistently refining a high-end standard of care that translates clinical insight into improved patient outcomes.
+        </p>
+
+        <h3 style={{ fontSize: '20px', color: '#d4af37', fontFamily: 'Georgia, serif' }}>Core Competencies & Clinical Philosophy</h3>
+        <p style={{ lineHeight: '1.8', color: '#555', marginBottom: '20px' }}>
+          Dr. Azzam’s clinical practice is deeply rooted in evidence-based medicine. His international fellowships—including advanced training in Total Knee Replacement in Stolzalpe, Austria and Hip & Knee Arthroplasty in Paderborn, Germany—have shaped his precise, patient-centered approach to restorative joint surgery. Beyond the operating room, he is a dedicated educator and researcher. He has played a pivotal role in teaching undergraduate and postgraduate students across diverse institutions, including Cairo University, the Armed Forces Faculty of Medicine, and Sinai University. His active contribution to orthopedic scientific research includes numerous clinical trials and studies.
+        </p>
+
+        <h3 style={{ fontSize: '20px', color: '#d4af37', fontFamily: 'Georgia, serif' }}>Professional Distinctions</h3>
+        <ul style={{ color: '#555', lineHeight: '1.8', marginBottom: '20px' }}>
+            <li><strong>Academic Leadership:</strong> Extensive teaching experience ranging from undergraduate trauma courses to PhD-level instruction in Physical Therapy faculties.</li>
+            <li><strong>Global Exposure:</strong> Professional training and fellowships across Austria, Germany, and the Czech Republic, complemented by work experience in Kuwait and KSA.</li>
+            <li><strong>Resilience & Management:</strong> Renowned for distinguished crisis-management skills, specifically demonstrated during the 2011 casualty events at Cairo University.</li>
+            <li><strong>Scientific Contribution:</strong> An active member of the AO Association, the Egyptian Orthopedic Association, and the Egyptian Pelvis & Hip Society.</li>
+        </ul>
+
+        <h3 style={{ fontSize: '20px', color: '#d4af37', fontFamily: 'Georgia, serif' }}>Beyond the Theatre</h3>
+        <p style={{ lineHeight: '1.8', color: '#555', marginBottom: '20px' }}>
+          Dr. Azzam’s analytical and technical surgical skills are mirrored in his creative personal life. He finds creative balance in sketch drawing and clay sculpture. A firm believer in the value of diverse perspectives, he finds passion in traveling, having explored cultures across Europe, Turkey, the Middle East, and his native Egypt to broaden his human understanding beyond the hospital walls.
         </p>
       </section>
 
