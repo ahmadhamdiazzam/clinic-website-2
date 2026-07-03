@@ -108,7 +108,7 @@ export default function Home() {
           <nav style={{ display: 'flex', flexDirection: 'column', gap: '15px', fontFamily: 'Georgia, serif' }}>
             <a href="/about" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuAbout}</a>
             <a href="/services" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuServices}</a>
-            <a href="#injections" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuInjections}</a>
+            <a href="/injections" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuInjections}</a>
             <a href="/surgeries" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuSurgeries}</a>
             <a href="#outcomes" onClick={() => setMenuOpen(false)} style={{ color: '#111', textDecoration: 'none', fontSize: '16px' }}>{t.menuOutcomes}</a>
             
